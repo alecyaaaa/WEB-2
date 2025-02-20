@@ -1,0 +1,55 @@
+NAMA : Salwa Saleysia Putri
+NIM : 0110124155
+ROMBEL : SI06
+
+Jawaban Tugas1_Praktikum :
+1. Jelaskan apa yang dimaksud dengan dokumen root ?  
+-> Dokumen root adalah folder tempat file situs web untuk
+nama domain disimpan. Karena cPanel memungkinkan beberapa nama
+domain(domain tambahan dan subdomain).
+
+2.Pada apache web server, apakah dokumen root harus terletak dalam 
+direktori C:\xampp\htdocs ? Jelaskan jawaban anda
+-> iya karna biasanya lokasi folder ini biasanya ada
+di Windows C > xampp > htdocs.Untuk lebih mudah dalam
+mengorganisir project website, sebaiknya Anda membuat 
+folder untuk masing-masing project website.
+
+3.Jelaskan apa yang dimaksud dengan perintah git : init, 
+clone, remote,  add, commit, push dan checkout
+-> git init -> Perintah ini digunakan untuk membuat repositori baru. Caranya:
+git add -> Perintah git add bisa digunakan untuk menambahkan file ke index. 
+git clone -> Perintah git clone digunakan untuk checkout repositori. 
+Jika repositori berada di remove server 
+git commit -> Perintah git commit digunakan untuk melakukan commit 
+pada perubahan ke head. Ingat bahwa perubahan apapun yang 
+di-commit tidak akan langsung ke remote repository. 
+git remote -> Perintah git remote akan membuat user terhubung 
+ke remote repository.
+git push -> git push adalah perintah git dasar lainnya. 
+Push akan mengirimkan perubahan ke master branch dari 
+remote repository yang berhubungan dengan direktori kerja Anda.
+git checkout -> Perintah git checkout bisa digunakan untuk membuat
+branch atau untuk berpindah diantaranya. 
+
+4. Jelaskan perbedaan antara GitHub dan GitLab 
+-> GitHub banyak digunakan untuk proyek sumber terbuka, 
+sementara GitLab menawarkan fitur CI/CD yang lebih terintegrasi. 
+GitHub memiliki komunitas yang lebih besar, tetapi GitLab 
+menyediakan opsi privasi yang lebih baik. Keduanya memiliki 
+fitur unik yang memenuhi kebutuhan pengguna yang berbeda.
+
+5. Apa bedanya variable user dengan variable system ? 
+-> Variabel User -> Dikelola dan ditetapkan oleh pengguna 
+dan hanya berlaku untuk sesi pengguna tertentu atau aplikasi 
+tertentu.
+Variabel Sistem -> Dikelola oleh sistem operasi dan berlaku untuk 
+semua pengguna di sistem tersebut dan variabel ini memengaruhi 
+seluruh sistem dan aplikasi yang dijalankan oleh semua pengguna.
+
+6. Apa persamaan variable system dengan variable constant ? 
+-> - Nilai tetap: Kedua jenis variabel ini memiliki nilai yang tetap 
+atau tidak berubah selama program atau sistem berjalan.
+- Mempengaruhi operasional: Kedua variabel ini dapat mempengaruhi cara program 
+atau sistem beroperasi. Variabel sistem memberikan informasi tentang konfigurasi sistem, 
+sedangkan variabel konstan memberikan nilai yang tetap untuk digunakan dalam perhitungan atau logika program.
